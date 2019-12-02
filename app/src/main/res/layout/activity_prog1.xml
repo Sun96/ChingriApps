@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".matha.Rog1">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:text="লেজ পচা/ভাঙ্গা রোগ :"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:text="রোগের লক্ষণ:"/>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <FrameLayout
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audio1"
+                            android:id="@+id/ado1"
+                            android:src="@drawable/speaker"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audioPuss1"
+                            android:id="@+id/adoPs1"
+                            android:visibility="gone"
+                            android:src="@drawable/speakeroff"/>
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="১। পুকুরের অত্যধিক জৈব পদার্থ থাকার কারণে এ রোগ হয়। \n
+২। লেজে পচন ধরে ও পরে খসে পড়ে।\n
+৩। লেজেকালো দাগ দেখা য়ায়। লেজের সামনের অংশে তরলপূর্ণ ফোস্কা (পুজ) দেখা যায়।\n
+৪। চিংড়ির খোলস লেজ ও ফুলকায় কাল কাল দাগ হয়। খোলসের গায়ে ছিদ্র হয়।\n
+৫। বেশি মাত্রায় হলে দেহের সবজায়গায়  ছড়িয়ে পড়ে।  \n
+৬। পরবর্তীতে ফাঙ্গাস দ্বারা আক্রান্ত হয়ে চিংড়ি মারা যায়।\n
+
+"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:text="প্রতিকার:"/>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <FrameLayout
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audio2"
+                            android:id="@+id/ado2"
+                            android:src="@drawable/speaker"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audioPuss2"
+                            android:id="@+id/adoPs2"
+                            android:visibility="gone"
+                            android:src="@drawable/speakeroff"/>
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="১। দ্রুত পানি পরিবর্তন এবং প্যাডেল হুইলের সাহায্যে বায়ু সঞ্চালনের রোগের প্রকোপ কমে যায়। \n
+২। মিথাইল ব্লু (২-৫ পিপিএম) পানিতে ব্যবহার করে রোগ নিরাময় করা যায়।\n
+
+
+
+"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:text="প্রতিরোধ:"/>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <FrameLayout
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audio21"
+                            android:id="@+id/ado21"
+                            android:src="@drawable/speaker"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audioPuss21"
+                            android:id="@+id/adoPs21"
+                            android:visibility="gone"
+                            android:src="@drawable/speakeroff"/>
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="১। খামারে দ্রবীভূত অক্সিজেন, লবণাক্ততা এবং পিএইচআদর্শ মাত্রায় রাখা। \n
+২। পানি পরিবর্তন করা। \n
+৩। পরিমিত সূষম খাবার প্রয়োগ করা।\n
+৪। নিয়মিত চুন প্রয়োগ\n
+৫। পুকুরের তলায় পঁচা কাদা মাটি তুলে, ভাল মত শুকিয়ে  ‍চুন-সার দিয়ে পুকুর ভালভাবে প্রস্তুত করতে হবে।\n
+"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঔষধ:"
+                android:layout_margin="5dp"
+                android:textSize="20dp"/>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:id="@+id/img1"
+                        android:src="@drawable/mid"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:id="@+id/img2"
+                        android:src="@drawable/mid"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:id="@+id/img3"
+                        android:src="@drawable/mid"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:id="@+id/img4"
+                        android:src="@drawable/ic_launcher_background"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

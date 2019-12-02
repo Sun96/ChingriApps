@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".matha.Rog1">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:text="খোসা নরম রোগ:"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:text="রোগের লক্ষণ:"/>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <FrameLayout
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audio1"
+                            android:id="@+id/ado1"
+                            android:src="@drawable/speaker"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audioPuss1"
+                            android:id="@+id/adoPs1"
+                            android:visibility="gone"
+                            android:src="@drawable/speakeroff"/>
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="
+                       আক্রান্তহওয়ারবয়সঃপূর্ণবয়স্ক\n
+১। অপুষ্টি,ক্যালসিয়াম ও ফসফরাস ঘাটতি, কীটনাশকের উপস্থিতি, অমস্নত্ব,অক্সিজেন স্বল্পতা, এ্যামোনিয়ার উচ্চমাত্রা ও তাপমাত্রা বৃদ্ধির কারণে খোলস নরমহয়। অনেকে এক স্পঞ্জ রোগ বলে।\n
+২। খোলস ক্ষয়প্রাপ্ত এবং রং বাদামী/কালচে হয়ে থাকে।\n
+৩। পানির লবণাক্ততা কমে গেলে ও এ রোগে বাগদা চিংড়ি আক্রান্ত হতে পারে। \n
+৪। খোলস বদলানোর ২৪ ঘন্টা পর ও শক্ত হয় না, কম বাড়ে ও ক্রমশঃ দূবল হয়ে মারা যায়।\n
+"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:text="প্রতিকার:"/>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <FrameLayout
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audio2"
+                            android:id="@+id/ado2"
+                            android:src="@drawable/speaker"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audioPuss2"
+                            android:id="@+id/adoPs2"
+                            android:visibility="gone"
+                            android:src="@drawable/speakeroff"/>
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="১। ক্যালসিয়ামসহ সম্পূরক খাদ্য প্রয়োগ করে পুষ্টির অভাব দুর করতে পারলে এ রোগ ভাল হয়। \n
+২। পানিতে শতাংশে ১ কেজি পরিমান পাথুরে চুন প্রয়োগ করলে ভাল ফল পাওয়া যায়।\n
+"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:text="প্রতিরোধ:"/>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <FrameLayout
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audio21"
+                            android:id="@+id/ado21"
+                            android:src="@drawable/speaker"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audioPuss21"
+                            android:id="@+id/adoPs21"
+                            android:visibility="gone"
+                            android:src="@drawable/speakeroff"/>
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="১। পানি পরিবর্তন \n
+২।পরিমিত চুন প্রয়োগ (০.৫কেজি/শতাংশ)\n
+৩। খনিজ পদার্থ সমৃদ্ধ সুষম খাদ্য প্রয়োগ।\n
+৪। রোগের আক্রমণ হলে আটল দিয়ে বড় চিংড়ি ধরে ফেলতে হবে। খামারে পানি নিষ্কাশনে ও প্রবেশের পৃথক ব্যবস্থা রাখতে হবে।
+
+"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ঔষধ:"
+                android:layout_margin="5dp"
+                android:textSize="20dp"/>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:id="@+id/img1"
+                        android:src="@drawable/mid"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:id="@+id/img2"
+                        android:src="@drawable/mid"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:id="@+id/img3"
+                        android:src="@drawable/mid"/>
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:id="@+id/img4"
+                        android:src="@drawable/ic_launcher_background"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

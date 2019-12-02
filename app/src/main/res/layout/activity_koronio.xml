@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".matha.Rog1">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="রোগ প্রতিরোধের  জন্য খামারে ভাল ব্যবস্থাপনা প্রতিষ্ঠার কোন বিকল্প নেই। "/>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="20dp"
+            android:text="ক। মজুদ পূর্ব পদক্ষেপঃ"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="1.	সুস্থ্য সবল ও রোগমুক্ত পোনা সংগ্রহ করা।\n
+1.	রোগাক্রামত্ম ও দুর্বল পোনা মজুদ না করা।\n
+2.	পোনা যথাযথ টেকসই করে ছাড়া।(নার্সারী প্রতিপালনের মাধ্যমে মজুদ করা)\n
+3.	অবাঞ্ছিত প্রাণীর অনুপ্রবেশ বন্ধ করা।\n
+4.	প্রাকৃতিক খাবারের মজুদ নিশ্চিত করা।\n
+5.	পানি থিতিয়ে বা শোধন করে খামারে উত্তলন করা।\
+"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="20dp"
+                android:text="খ। মজুদ পরবর্তী প্রতিরোধ ব্যবস্থাঃ "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="6.	প্রতিবার ছেঁকে পানি তুলে ঘেরে/খামারে ক্ষতিকর প্রাণির অনুপ্রবেশ নিয়ন্ত্রণ। \n
+7.	অতিরিক্ত পচনশীল দ্রব্যাদি থাকলে তা তুলে ফেলা। \n
+8.	পানির গভীরতা ৮০-১০০ সে:মি: রাখা।\n
+9.	পস্নাংকটন উৎপাদন নিয়ন্ত্রনে রাখা।\n
+10.	সঠিকমাত্রায় খাবার প্রয়োগ করা।\n
+11.	সঠিক মানের খাবার প্রয়োগ করা।\n
+12.	সঠিক মাত্রায় পানির গুণাগুন সংরক্ষন। \n
+13.	নিম্ন মানের খাবার প্রয়োগ থেকে বিরত থাকা।\n
+14.	পরিমিত চুন প্রয়োগ করে পানির পিএইচ ও রোগজীবণু নিয়ন্ত্রণ।\n
+15.	ঘোলাটে ও  দুষিত পানি ঘেরে প্রবেশ করানো থেকে বিরত থাকা। \n
+16.	সময়মত ও পরিমিত পানি পরিবর্তন। \n
+17.	বিকল্প শস্য উৎপাদনের মাধ্যমে মাটির উর্বরতা ধরে রাখা/বৃদ্ধি করা। \n
+18.	সময়মত চিংড়ি আহরণ। \n
+19.	রোগে আক্রামত্ম হলে ঘেরের পানি পরিবর্তন  করা ভাল। তবে খেয়াল রাখতে হবে যাতে রোগাক্রামত্ম ঘেরের পানি সুস্থ্য ঘেরে প্রবেশ না করে। হঠাৎ গুনাগণ পরিবর্তন হলে প্রকপ বৃদ্ধি পায়।\n
+20.	প্রতি ৩-৫ বৎসর অমত্মর ১-২ বৎসর  চিংড়ি চাষ বিরত রাখা চাষ বিরতি দেয়া বা অন্য ফসল (মাছ) কৃষিজ পণ্য উৎপাদণ করা।\n
+21.	নিম্ন মানের খাবার প্রয়োগ থেকে বিরত থাকা।\n
+22.	পরিমিত চুন প্রয়োগ করে পানির পিএইচ ও রোগজীবণু নিয়ন্ত্রণ।\n
+23.	ঘোলাটে ও  দুষিত পানি ঘেরে প্রবেশ করানো থেকে বিরত থাকা। \n
+24.	সময়মত ও পরিমিত পানি পরিবর্তন। \n
+25.	বিকল্প শস্য উৎপাদনের মাধ্যমে মাটির উর্বরতা ধরে রাখা/বৃদ্ধি করা। \n
+26.	সময়মত চিংড়ি আহরণ। \n
+27.	রোগে আক্রামত্ম হলে ঘেরের পানি পরিবর্তন  করা ভাল। তবে খেয়াল রাখতে হবে যাতে রোগাক্রামত্ম ঘেরের পানি সুস্থ্য ঘেরে প্রবেশ না করে। হঠাৎ গুনাগণ পরিবর্তন হলে প্রকপ বৃদ্ধি পায়।\n
+28.	প্রতি ৩-৫ বৎসর অমত্মর ১-২ বৎসর  চিংড়ি চাষ বিরত রাখা চাষ বিরতি দেয়া বা অন্য ফসল (মাছ) কৃষিজ পণ্য উৎপাদণ করা।\n
+
+"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
