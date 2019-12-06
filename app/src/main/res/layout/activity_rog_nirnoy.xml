@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RogNirnoy">
+    tools:context=".RogNirnoy"
+    android:orientation="vertical">
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -12,22 +13,24 @@
         android:layout_height="?attr/actionBarSize"
         app:navigationIcon="?attr/homeAsUpIndicator" />
 
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="26dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="চিংড়ির কোন অংশে রোগ দেখতে পারছেন?"
+        android:textSize="28dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical">
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="চিংড়ির কোন অংশে রোগ দেখতে পারছেন?"
-            android:gravity="center"
-            android:layout_marginBottom="6dp"
-            android:textSize="28dp"/>
+            android:orientation="vertical">
+
 
         <ImageView
             android:layout_width="wrap_content"
@@ -45,5 +48,6 @@
             android:layout_marginTop="2dp"
             android:onClick="pa"
             android:src="@drawable/pa" />
+        </LinearLayout>
     </LinearLayout>
-</RelativeLayout>
+</LinearLayout>

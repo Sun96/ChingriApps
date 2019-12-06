@@ -7,23 +7,49 @@
     android:background="#fff"
     android:orientation="vertical">
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:background="?attr/colorPrimary"
         android:layout_height="?attr/actionBarSize"
         app:navigationIcon="?attr/homeAsUpIndicator" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="400dp">
-    <ImageView
-        android:id="@+id/image"
-        android:src="@drawable/mid"
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginRight="5dp"
-        />
+        app:cardBackgroundColor="#F1F1F1"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/mid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                />
+            <ImageView
+                android:id="@+id/cnsl"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:layout_gravity="right"
+                android:onClick="cancel"
+                android:src="@android:drawable/ic_delete" />
+        </FrameLayout>
+
     </LinearLayout>
+    </android.support.v7.widget.CardView>
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
@@ -39,25 +65,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/text"
+        android:layout_marginTop="10dp"
         android:layout_alignParentBottom="true">
 
         <Button
             android:id="@+id/prv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
             android:layout_marginLeft="5dp"
-            android:background="@color/colorAccent"
             android:text=" Previous "
             android:textSize="20dp" />
 
         <Button
             android:id="@+id/nxt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="5dp"
-            android:background="@color/colorAccent"
             android:text=" Next "
             android:textSize="20dp" />
+
     </RelativeLayout>
 </LinearLayout>

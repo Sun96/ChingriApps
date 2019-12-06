@@ -12,63 +12,71 @@
         android:background="?attr/colorPrimary"
         android:layout_height="?attr/actionBarSize"
         app:navigationIcon="?attr/homeAsUpIndicator" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_margin="5dp"
-    android:textSize="20dp"
-    android:text="সাদা ফুটফুটি রোগ  :"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textSize="20dp"
-            android:text="রোগেরলক্ষণ:"/>
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            card_view:cardCornerRadius="4dp">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <FrameLayout
-
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_margin="5dp"
-            android:layout_gravity="center">
-        <ImageView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:onClick="audio1"
-            android:id="@+id/ado1"
-            android:src="@drawable/speaker"/>
-            <ImageView
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="সাদা ফুটফুটি রোগ  :"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="রোগেরলক্ষণ:"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="audioPuss1"
-                android:id="@+id/adoPs1"
-                android:visibility="gone"
-                android:src="@drawable/speakeroff"/>
-        </FrameLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="3dp"
-        android:text="
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/ado1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audio1"
+                            android:src="@drawable/speaker" />
+
+                        <ImageView
+                            android:id="@+id/adoPs1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audioPuss1"
+                            android:src="@drawable/speakeroff"
+                            android:visibility="gone" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="
  আক্রান্তহওয়ারবয়সঃপূর্ণবয়স্ক \n
 ১। প্রথম দিকে রোগের কোন বাহ্যিক লক্ষণ দেখা যায় না। ৩/৪ দিন পরো তীব্রতা বৃদ্ধি পায়।\n
 ২। চিংড়িপোনাঘেরেছাড়ার৩০-৭০ দিনের মধ্যে এ রোগ দেখা দিতে পারে।\n
@@ -80,148 +88,231 @@
 ৮। দেহঅবশহয়েপড়ে।\n
 ৯। দেহললচেওবিবর্ণহয়েপড়ে।\n
 ১০। আক্রান্ত চিংড়ি অল্প সময়ের মধ্যে ব্যাপক হারে মারা যায়।\n
-"/>
-    </LinearLayout>
-        </android.support.v7.widget.CardView>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_margin="5dp"
-        android:text="প্রতিকার:"/>
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            card_view:cardCornerRadius="4dp">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <FrameLayout
+" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
 
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_margin="5dp"
-            android:layout_gravity="center">
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="audio2"
-                android:id="@+id/ado2"
-                android:src="@drawable/speaker"/>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="audioPuss2"
-                android:id="@+id/adoPs2"
-                android:visibility="gone"
-                android:src="@drawable/speakeroff"/>
-        </FrameLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="3dp"
-            android:text=" ১। পানি পরিবর্তন ও প্রবাহ সম্পূর্ণ রূপে বন্ধ করে দিতে হবে।\n
-২। সকল প্রকার সার ও সম্পূরক খাবার প্রয়োগ বন্ধ করে দিতে হবে।\n
-৩। আক্রান্ত চিংড়ি দ্রুত সরিয়ে ফেলেমাটিতেপুঁতেফেলতেহবে।\n
-৪। আক্রামত্ম ঘেরের মাছ, চিংড়ি অথবা অন্যান্য প্রাণী অন্য কোন ঘেরে ছাড়া যাবেনা।\n"/>
-    </LinearLayout>
-        </android.support.v7.widget.CardView>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_margin="5dp"
-            android:text="প্রতিরোধ:"/>
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            card_view:cardCornerRadius="4dp">
-            <LinearLayout
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="প্রতিকার:"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <FrameLayout
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
 
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_margin="5dp"
-                    android:layout_gravity="center">
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:onClick="audio21"
-                        android:id="@+id/ado21"
-                        android:src="@drawable/speaker"/>
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:onClick="audioPuss21"
-                        android:id="@+id/adoPs21"
-                        android:visibility="gone"
-                        android:src="@drawable/speakeroff"/>
-                </FrameLayout>
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="3dp"
-                    android:text=" ১১। ঘেরের তলদেশের পচাঁ কাদামাটি তুলে ফেলুন চুন সার দিয়ে জমি প্রত্তুত করতে হবে।\n
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/ado2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audio2"
+                            android:src="@drawable/speaker" />
+
+                        <ImageView
+                            android:id="@+id/adoPs2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audioPuss2"
+                            android:src="@drawable/speakeroff"
+                            android:visibility="gone" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text=" ১। পানি পরিবর্তন ও প্রবাহ সম্পূর্ণ রূপে বন্ধ করে দিতে হবে।\n
+২। সকল প্রকার সার ও সম্পূরক খাবার প্রয়োগ বন্ধ করে দিতে হবে।\n
+৩। আক্রান্ত চিংড়ি দ্রুত সরিয়ে ফেলেমাটিতেপুঁতেফেলতেহবে।\n
+৪। আক্রামত্ম ঘেরের মাছ, চিংড়ি অথবা অন্যান্য প্রাণী অন্য কোন ঘেরে ছাড়া যাবেনা।\n" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="প্রতিরোধ:"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:id="@+id/ado3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audio3"
+                            android:src="@drawable/speaker" />
+
+                        <ImageView
+                            android:id="@+id/adoPs3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="audioPuss3"
+                            android:src="@drawable/speakeroff"
+                            android:visibility="gone" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:text="১। ঘেরের তলদেশের পচাঁ কাদামাটি তুলে ফেলুন চুন সার দিয়ে জমি প্রত্তুত করতে হবে।\n
 ২। অন্য রোগাক্রান্ত খামারের বর্জ্য যাতে ঘেরে প্রবেশ করতে না পারে সেদিকে সতর্ক দৃষ্টি রাখতে হবে।\n
 ৩। ভাইরাসমুক্ত সুস্থ্য পোনা ফরমালিন শোধনকরেমজুদ।\n
-"/>
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
+" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ঔষধ:"
-        android:layout_margin="5dp"
-        android:textSize="20dp"/>
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            card_view:cardCornerRadius="4dp">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="ঔষধ:"
+                android:textSize="20dp" />
 
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:id="@+id/img1"
-            android:src="@drawable/mid"/>
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:id="@+id/img2"
-            android:src="@drawable/ch2"/>
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:id="@+id/img3"
-            android:src="@drawable/ch1"/>
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_margin="5dp"
-            android:id="@+id/img4"
-            android:src="@drawable/ic_launcher_background"/>
-    </LinearLayout>
-        </android.support.v7.widget.CardView>
-    </LinearLayout>
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/mid" />
+
+                    <ImageView
+                        android:id="@+id/img2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/ch2" />
+
+                    <ImageView
+                        android:id="@+id/img3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/ch1" />
+
+                    <ImageView
+                        android:id="@+id/img4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/ic_launcher_background" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="কৃষি তথ্য সার্ভিস :"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="
+1. http://www.ais.gov.bd/site/ekrishi/3f8b30a5-c3c5-426a-a793-a95ed331876c  \n
+\n
+2.http://assasuni.satkhira.gov.bd/sites/default/files/files/assasuni.satkhira.gov.bd/files/3435fed7_1c22_11e7_8f57_286ed488c766/shrimp.doc
+\n
+"
+                        android:textColor="@color/colorAccent" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="বিস্তারিত জানতে ফোন করুণ"
+                android:textSize="20dp" />
+
+            <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="4dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="60dp"
+                        android:onClick="call"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/call" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_margin="5dp"
+                android:textSize="20dp" />
+        </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xonetsapps.chingriapps">
-
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,13 +19,18 @@
                 android:resource="@xml/provider_paths"/>
         </provider>
 
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".SplashActivity"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MainActivity"/>
         <activity android:name=".RogNirnoy" />
         <activity android:name=".matha.MatharRog" />
         <activity android:name=".matha.Rog1" />

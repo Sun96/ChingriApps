@@ -20,19 +20,58 @@
         android:layout_marginTop="5dp"
         tools:ignore="MissingConstraints" />
 
-    <Button
+<LinearLayout
+    android:layout_width="220dp"
+    android:layout_height="80dp"
+    android:background="#CECECE"
+    android:onClick="rog_nirnoy"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ch_icon"/>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
         android:onClick="rog_nirnoy"
-        android:text="রোগ নির্ণয়" />
+        android:text="রোগ নির্ণয়"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:background="#CECECE"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         android:onClick="rog_protikar"
-        android:text="করনীয়" />
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ch_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dp"
+            android:onClick="rog_nirnoy"
+            android:text="প্রয়োজনীয় করণীয়"
+            android:textColor="#000"
+           android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
 </LinearLayout>
